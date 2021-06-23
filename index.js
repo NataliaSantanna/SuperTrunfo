@@ -1,7 +1,7 @@
 var cartaSage = {
   nome: "Sage",
   imagem:
-    "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png",
+    "https://cdn1.dotesports.com/wp-content/uploads/2020/04/03121142/Sage.jpg",
   atributos: {
     ataque: 60,
     defesa: 90,
@@ -34,7 +34,7 @@ var cartaMaquina = {
 var cartaHarry = {
   nome: "Harry Potter",
   imagem:
-    "https://static.wikia.nocookie.net/harrypotter/images/5/53/550w_movies_harry_potter_order_of_phoenix_1.jpg/revision/latest/scale-to-width-down/140?cb=20150215221208&path-prefix=pt-br",
+    "https://ogimg.infoglobo.com.br/in/24440303-24f-31c/FT1086A/87996533_SCAtor-Daniel-Redcliff-como-Harry-Potter.-Foto-Divulgacao.jpg",
   atributos: {
     ataque: 40,
     defesa: 16,
