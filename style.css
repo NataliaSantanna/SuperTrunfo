@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBwcHCAgHCggHBwoHBwgHBw8ICQcWIBEiIiARExMYHSggGBolGx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDysZFRkrKysrLSsrLSs3KysrKysrKystKysrKzcrKzcrKysrKy0rKys3LSsrKy0rNy0rKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgMABv/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgUH/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDDTKz1UrT02LlVKz0yibjSVUrOUyozuNJTrOVUozFyqlZymUSNJTqJTozGmmVnKqUZi9MqNOiRenUadGYvTqJTokXp1Gq0SK06jSMxbtTpEUUnQLgRHOc4HOc4HOc4HGAwHm9MqJTKrrRpKZWcqpRIvVSs5TKMxpKZUaZUZjSUys5VSjMXKqVnKdEjSU6jTKMxpKZWcqtGYvTqNMokXqtZynRmNNOolOiRelGnRIvXJ0jMVpTpEijqdcIop0iFwIOc5wOMBgPLaqVnplV2Y0lMrOVWiRpKZWemUZjSVUrOU6jMaSmVEp0SL1UrOUyjMaSqlZymUZjTTrOVUokXKrWcp0ZjTTKiUyjMXqtZ6rRIvTqJTozF6dRKdEi9KNOjMXpRp0SL1ydIkVpTpEJTpEJgMB5KU6z1Wq7kXplRKdEjSU6z1UozFyqlZymUZjSUyo0yokaSnWcqpRmL1UrPTozuNJTrOVUokaaZWcqpRmLlVrPTKMxpKZUSmUSLlVrPVSjMXKZUSnRmLlOolOiRenUarRmK06nTokUdTp0SKKDoi9MQYI8hp1GmVXejSU6jTokXKZUSnRmNNOs9VKMxcqpWcp0SNJTKiUyjMaSmVnKqUZi9OolMqJGkplRKZVZ3GkplZynUZ3GkqtZymUZjSUys5VaJF6rWcplGY0lOo06JF6ZUSmUZjTTqNMokXp1GnRmLOoOiRZlQZRI8fp1OnVd+L06jTozF6dRp0SLlMqNOjMaaZWeqlEi5TKiU6MxpplZyqlEi5VSs9OjMaaZUSmVGY0lOs9VqsxcqpWemVE3GkplZyqlGY0lOs9VKMxcqpWcplEjSU6jTKMxeqlZynRmNNOo0yiRenUSnRmLVKz06JuPIaU65XfXp1GkRenUadGYvTqNOiRcplRp0SNNMrPVSjMXKdRplGY0lMrOVWiRcqtZ6ZRmNJTKzlVKMxpKZWcqpUSL0yolMqsxpKZWeq1GY006zlMokaSqlZynRmNJTqNMozFyqlZynRI00yolMozF6qVnp0ZjyJ0OV3laUHRFaUnRFadTrtEi9Oo06JF6dRp0SNNMqNOjMXp1GmUSNJTrOVWjMXplRKZRI0lMrOVUozGkplZymVGY0lMqJTozGmmVnKqUSLlVKz0yjMaSmVEplGY00ys5VSiRcqpWenRncaaUSnRnceVc5yu45znA46HCKOpdokWdQdEXp1B0SL06g6JF6dRp0SL06jTozFyq1nKrRmL0yolMokaSnWeqlGYuVUrOU6JGkp1EplGY00ys5VSjMXKqVnplGdxpKdZyqlRNxpKZWcqtGYuVWs9OjMeac5yuy5znA5znA5znATqXCKOp06JFHUHRF6dQdEi9Oo06JF6dRplGY0lOs9VokXKZUSnRmNNOs5VSjMXKZUSnRI0lMrOVUozGkplZynRmNNOolMqJGmmVnKrVZ3Fyq1nqpUZjzznOV1nOc4HOc4HOc4HOc4HOc4Dpc4QnXOEdp1zhDp0uGXarQ4RWnXOEOmVzhnVaZQ4ZVKdc4RWmVzhnTKqUOGdVplc5EVKdc5Wdf/9k=');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button {
+    width: 10rem;
+    max-width: 10rem;
+    padding: .8rem 1.5rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+h2 {
+    color: white;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 5px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+.resultado-final {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#placar, #quantidade-cartas {
+    color: white;
+}
