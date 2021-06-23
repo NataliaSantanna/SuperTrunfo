@@ -164,7 +164,7 @@ function jogar() {
         htmlResultado = '<p class="resultado-final">Empatou</p>'
     }
 
-    if (cartas.length == 0) {
+    if (cartas.length <= 1) {
         alert("Fim de jogo")
         if (pontosJogador > pontosMaquina) {
             htmlResultado = '<p class="resultado-final">Venceu</p>'
